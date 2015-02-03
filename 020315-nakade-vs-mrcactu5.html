@@ -1,0 +1,128 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="marked.js"></script>
+<style type="text/css">
+
+/* .well { height: 100%; } */
+
+.content { background-color: #659665; padding: 2%;}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="navbar">
+    <div class="navbar-inner">
+      <div class="container" style="width: auto;">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="#">Tenuki </a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div>
+    </div><!-- /navbar-inner -->
+  </div>
+
+<div class="row">
+    <div class="span4">
+      <div class="content">
+## Playing Go
+<img src="020315-nakade-vs-mrcactu5.fig-01.png">
+      </div>
+    </div>
+
+    <div class="span4">
+<div class="content">
+## Hello World!
+
+For this first blog entry, well discuss a 0.5 kome game I played agained 2k `nakade11`
+Here, exactly 100 moves in, the game looks favorable to Black except there for some questions about the
+life or death status on the upper left.  The upper right being quite clear. 
+
+The bottom half is just begginning to be filled, with a crosscut at **K4**
+</div>
+    </div>
+
+    <div class="span4">
+	<div class="content">
+## Solve it!
+
+The best source of Go problems is from the game itself.
+I spent the entire game thinking about the upper left and whether it as alive.
+
+**Is Black dead?**
+
+<img src="020315-nakade-vs-mrcactu5.fig-02.png" width="50%">
+
+As you are reading the rest of the blog this is something to play with.
+Until I write a decent online Go board, you will have to use the real thing.
+	</div>
+    </div>
+
+  </div>
+
+<div class="row">
+    <div class="span4">
+      <div class="content">
+      </div>
+    </div>
+
+    <div class="span4">
+	<div class="content"></div>
+    </div>
+
+    <div class="span4">
+	<div class="content"></div>
+    </div>
+</div>
+
+<!-- 
+<div class="row">
+    <div class="span4">
+      <div class="content">
+      </div>
+    </div>
+
+    <div class="span4">
+	<div class="content"></div>
+    </div>
+
+    <div class="span4">
+	<div class="content"></div>
+    </div>
+</div>
+-->
+  <script>
+	blog = document.getElementsByClassName('content')
+	for (var i = 0; i < blog.length; i++){
+		blog[i].innerHTML = marked(blog[i].innerHTML);
+	}
+	
+  </script>
+
+</body>
+
+</html>
