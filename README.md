@@ -4,5 +4,5 @@ some basic resources ( minimal working knowledge of Japanese required) lots of g
 
 * Kisei - Yomiuri Shimbun http://kisei.yomiuri.co.jp/kisei/41st/top_league.htm
 * Meijin - Asahi Shimbun http://www.asahi.com/igo/
-
-please notify me if you find others.  If I do not include Chinese or Korea please do not offend; I am less familiar.
+* Honinbo - http://homepages.cwi.nl/~aeb/go/games/games/Honinbo/index.html
+* literally thousands of others
